@@ -13,12 +13,13 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 
 # Register No:212225040106
 # Developed By:HARI V
+```
 
 # 1-Norm of a Matrix
 <img width="1236" height="239" alt="image" src="https://github.com/user-attachments/assets/67d3ccab-84a2-4f7d-9b2b-412dbae1496e" />
 
 ##The 1-norm of a matrix (often called the maximum column sum norm) is calculated as the ## maximum sum of the absolute values of the elements in each column. 
-
+```
 import numpy as np
 
 mat=np.array(eval(input()))
@@ -28,14 +29,13 @@ ans=np.linalg.norm(mat,1)
 norm_of_matrix="{:.2f}".format(ans)
 
 print(norm_of_matrix)
-
-
+```
 # 2-Norm of a Matrix
 <img width="886" height="219" alt="image" src="https://github.com/user-attachments/assets/eb49b3e7-da73-41e0-806e-db788c71867c" />
 
 
 #The L2 norm (or Euclidean norm) of a vector measures the "length" or "magnitude" of the vector. Or it is the square root of sum of squares of all the elements
-
+```
 import numpy as np
 
 mat=np.array(eval(input()))
@@ -45,7 +45,7 @@ ans=np.linalg.norm(mat,2)
 norm_of_matrix="{:.2f}".format(ans)
 
 print(norm_of_matrix)
-
+```
 
 
 # Infinity Norm of a Matrix
@@ -54,7 +54,7 @@ print(norm_of_matrix)
 
 
 #The infinity norm of a matrix, often called the maximum row sum norm, is defined as the #maximum sum of the absolute values of the elements in each row.
-
+```
 import numpy as np
 
 mat=np.array(eval(input()))
